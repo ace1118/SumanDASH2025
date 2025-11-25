@@ -183,6 +183,8 @@ gdjs.copyArray(runtimeScene.getObjects("iseeteam_logo"), gdjs.CreditsCode.GDisee
 }
 {gdjs.evtTools.advancedWindow.setFullScreenable(true, runtimeScene);
 }
+{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
+}
 }
 
 }

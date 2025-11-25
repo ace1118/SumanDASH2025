@@ -71,6 +71,8 @@ gdjs.copyArray(runtimeScene.getObjects("YouWin"), gdjs.WinnerCode.GDYouWinObject
 }
 {gdjs.evtTools.advancedWindow.setFullScreenable(true, runtimeScene);
 }
+{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
+}
 }
 
 }

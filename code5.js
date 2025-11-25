@@ -35,8 +35,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "590c3836-7993-4f70-ad71-4a2c8971ff85", runtimeScene.getGame().getVariables().getFromIndex(5).getAsNumber(), runtimeScene.getGame().getVariables().getFromIndex(8).getAsString());
 }
-{gdjs.evtTools.advancedWindow.setFullScreenable(true, runtimeScene);
-}
 }
 
 }
@@ -70,6 +68,10 @@ gdjs.copyArray(runtimeScene.getObjects("TryAgain_BUTTON"), gdjs.Game_32OverCode.
 {for(var i = 0, len = gdjs.Game_32OverCode.GDSCOREObjects1.length ;i < len;++i) {
     gdjs.Game_32OverCode.GDSCOREObjects1[i].getBehavior("Text").setText("SCORE : " + runtimeScene.getGame().getVariables().getFromIndex(5).getAsString());
 }
+}
+{gdjs.evtTools.advancedWindow.setFullScreenable(true, runtimeScene);
+}
+{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
 }
 }
 

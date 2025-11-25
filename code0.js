@@ -45,6 +45,8 @@ gdjs.copyArray(runtimeScene.getObjects("Start"), gdjs.NoteCode.GDStartObjects1);
 }
 {gdjs.evtTools.advancedWindow.setFullScreenable(true, runtimeScene);
 }
+{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
+}
 }
 
 }
