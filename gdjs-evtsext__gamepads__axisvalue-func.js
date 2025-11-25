@@ -9,7 +9,7 @@ gdjs.evtsExt__Gamepads__AxisValue = {};
 gdjs.evtsExt__Gamepads__AxisValue.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Gamepads__AxisValue.userFunc0xdf0528 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__AxisValue.userFunc0xe07180 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 
 const playerId = eventsFunctionContext.getArgument("PlayerId") - 1;
@@ -120,7 +120,7 @@ gdjs.evtsExt__Gamepads__AxisValue.eventsList0 = function(runtimeScene, eventsFun
 {
 
 
-gdjs.evtsExt__Gamepads__AxisValue.userFunc0xdf0528(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gamepads__AxisValue.userFunc0xe07180(runtimeScene, eventsFunctionContext);
 
 }
 
