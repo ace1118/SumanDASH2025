@@ -69,6 +69,8 @@ gdjs.copyArray(runtimeScene.getObjects("YouWin"), gdjs.WinnerCode.GDYouWinObject
     gdjs.WinnerCode.GDSCOREObjects1[i].getBehavior("Text").setText("SCORE : " + runtimeScene.getGame().getVariables().getFromIndex(5).getAsString());
 }
 }
+{gdjs.evtTools.advancedWindow.setFullScreenable(true, runtimeScene);
+}
 }
 
 }

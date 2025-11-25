@@ -181,6 +181,8 @@ gdjs.copyArray(runtimeScene.getObjects("iseeteam_logo"), gdjs.CreditsCode.GDisee
     gdjs.CreditsCode.GDhouse_9595logoObjects1[i].setCenterPositionInScene(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2,gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) / 2);
 }
 }
+{gdjs.evtTools.advancedWindow.setFullScreenable(true, runtimeScene);
+}
 }
 
 }

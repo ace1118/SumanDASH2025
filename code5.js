@@ -35,6 +35,8 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "590c3836-7993-4f70-ad71-4a2c8971ff85", runtimeScene.getGame().getVariables().getFromIndex(5).getAsNumber(), runtimeScene.getGame().getVariables().getFromIndex(8).getAsString());
 }
+{gdjs.evtTools.advancedWindow.setFullScreenable(true, runtimeScene);
+}
 }
 
 }

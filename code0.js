@@ -43,6 +43,8 @@ gdjs.copyArray(runtimeScene.getObjects("Start"), gdjs.NoteCode.GDStartObjects1);
 }
 {gdjs.deviceSensors.orientation.activateOrientationSensor();
 }
+{gdjs.evtTools.advancedWindow.setFullScreenable(true, runtimeScene);
+}
 }
 
 }
@@ -83,6 +85,8 @@ for (var i = 0, k = 0, l = gdjs.NoteCode.GDSTARTObjects1.length;i<l;++i) {
 gdjs.NoteCode.GDSTARTObjects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Credits", false);
+}
+{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
 }
 }
 
